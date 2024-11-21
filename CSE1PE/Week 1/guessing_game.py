@@ -1,6 +1,6 @@
 import random # This is used to generate psudo-random numbers
 
-print("Let's play a game. I'll pick a random number and you guess it! Don't worr,y I'll tell you if it's higher or lower to help youfind the answer. I'll pick a number between 1 and 100.")
+print("Let's play a game. I'll pick a random number and you guess it! Don't worry, I'll tell you if it's higher or lower to help youfind the answer. I'll pick a number between 1 and 100.")
 number = random.randrange(1,100) # This is the generated number we need to guess.
 guess = 0 # This is where we store the users guesses
 attempts = 0 # This is the number of attempts before the answer was found
